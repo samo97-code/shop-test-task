@@ -1,0 +1,42 @@
+.min-h-screen-c{
+    height: calc(100vh - 60px);
+}
+
+.auth-bg{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.errors-list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.main-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+@media (max-width: 1440px) {
+    .main-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+

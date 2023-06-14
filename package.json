@@ -1,0 +1,39 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.23",
+    "vue": "^3.2.47",
+    "vue-router": "4.0.5",
+    "vue-toastification": "^2.0.0-rc.2",
+    "vue3-cookies": "^1.0.6",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/eslint-parser": "7.13.10",
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/cli-plugin-babel": "5.0.0-alpha.7",
+    "@vue/cli-plugin-eslint": "5.0.0-alpha.7",
+    "@vue/cli-service": "5.0.0-alpha.7",
+    "autoprefixer": "^10.4.14",
+    "eslint": "7.22.0",
+    "eslint-plugin-vue": "7.7.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  }
+}
